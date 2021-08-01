@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>360&deg; Image Gallery</title>
     <meta name="description" content="360&deg; Image Gallery - A-Frame">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
   </head>
@@ -13,11 +12,13 @@
       <a-assets>
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
         <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+        <img id="lala" crossorigin="anonymous" src=<%= path %>> />
       </a-assets>
+      
       <a-sky id="image-360" radius="10" src="#sechelt"></a-sky>
 
-    <a-image  src="#lala"
-              position="0 0.3 -1"></a-image>
+      <a-image  src="#lala"
+                position="0 0.3 -1"></a-image>
 
       <a-entity text="value: BACK;
                       color: black;
@@ -46,10 +47,5 @@
           raycaster="objects: .button"></a-cursor>
       </a-entity>
     </a-scene>
-
-    <form action="/addImageWatermark" method="POST">
-      <input id="fileupload" type="file" name="fileupload" />
-    </form>
   </body>
-  <script src="js/gallery.js"></script>
   </html>

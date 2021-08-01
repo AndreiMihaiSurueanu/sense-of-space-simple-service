@@ -31,6 +31,21 @@
                 event-set__mouseleave="scale: 0.5 0.5 1"
                 sound="on: click; src: #click-sound">
       </a-entity>
+      
+      <a-entity text="value: ADD WATERMARK;
+                      color: black;
+                      align: center;
+                      wrapCount: 15"
+                position="0 0 -1"
+                scale="0.5 0.5 1"
+                class="button"
+                id="mark"
+                geometry="primitive: plane; height: auto; width: auto"
+                material="color: gray"
+                event-set__mouseenter="scale: 0.7 0.7 1"
+                event-set__mouseleave="scale: 0.5 0.5 1"
+                sound="on: click; src: #click-sound">
+      </a-entity>
     
       <a-entity text="value: VIEW GALLERY;
                       color: black;
@@ -60,8 +75,9 @@
       </a-entity>
     </a-scene>
 
-    <form action="/addImageWatermark" method="POST">
-      <input id="fileupload" type="file" name="fileupload" />
+    <form action="/addImageWatermark" method="POST" enctype="multipart/form-data">
+      <input id="fileupload" type="file" name="image" />
+      <button id="uploadbutton" type="submit"> Upload </button>
     </form>
   </body>
   <script src="js/home.js"></script>
