@@ -1,0 +1,33 @@
+{
+  "name": "sense_of_space_a-frame_application",
+  "version": "1.0.0",
+  "description": "A simple A-Frame application.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiMihaiSurueanu/sense-space-simple-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiMihaiSurueanu/sense-space-simple-service/issues"
+  },
+  "homepage": "https://github.com/AndreiMihaiSurueanu/sense-space-simple-service#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "jsdom": "^16.6.0",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
