@@ -35,4 +35,23 @@ e.g.:
 - http://localhost:1234
 
 
+#### Tips:
+
+A few things to consider.
+Since hosting the project on Glitch can sometimes be a
+little bit ... well...glitchy  :smile:
+Here are a few tips and things to keep in mind when trying the project in Glitch:
+* After you uploaded the image, when you press the 'Add Watermark' button,
+wait for the page to finish reloading before continuing
+* If you open the gallery and you see the image that you uploaded 
+without an orange feather over the image in the top left corner, then go back and 
+reupload the image, and watermark it
+* If you uploaded the image and watermarked it, and you open the gallery 
+and you see a black panel, then just refresh the page
+* If you have not uploaded and watermarked any image, and you open the gallery,
+and you see the black panel, don't worry it's normal, there's just nothing upladed
+yet. Just go back, upload and watermark an image.
+
+### Have fun with project and thank you for your attention. :blush: :wink:
+
 
