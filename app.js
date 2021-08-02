@@ -5,7 +5,7 @@ const path = require('path')
 const multer = require('multer')
 const Jimp  = require('jimp')
 dotenv.config();
-const port = process.env.PORT || 6000;
+const port = process.env.PORT || 1234;
 
 app.set('view-engine', 'ejs')
 app.use( express.static('public'))
