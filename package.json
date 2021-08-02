@@ -1,7 +1,7 @@
 {
   "name": "sense_of_space_a-frame_application",
   "version": "1.0.0",
-  "description": "A simple A-Frame application.",
+  "description": "A simple A-Frame application written by Andrei.",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
@@ -23,6 +23,7 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "jimp": "^0.16.1",
