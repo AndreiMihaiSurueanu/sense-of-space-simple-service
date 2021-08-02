@@ -1,12 +1,12 @@
 # Sense of Space A-Frame Application written by Andrei
 
-This project consists of a simple backend service in Node.js and express 
-that servers a couple of views representing the A-Frame Application.
-The user can upload an image from the local storage when performing the 'upload'
-action. And add a watermark to the image by performing the 'add watermark action.
+This project consists of a simple backend service in **Node.js** and **express** 
+that servers a couple of views representing the **A-Frame Application**.
+The user can upload an image from the local storage when performing the *"upload"*
+action. And add a watermark to the image by performing the *"add watermark"* action.
 Also the user can view the most recent watermarked image in a simple gallery.
-When performing the 'add watermark action, the server route '/addImageWatermark 
-is called, the image is stored on the server using Multer node package. The image
+When performing the *"add watermark"* action, the server route *"/addImageWatermark"*
+is called, the image is stored on the server using **Multer** node package. The image
 is then applied a watermark and overwrites the original image.
 
 
@@ -39,13 +39,14 @@ e.g.:
 
 A few things to consider.
 Since hosting the project on Glitch can sometimes be a
-little bit ... well...glitchy  :smile:
+little bit..., well..., glitchy  :smile:
 Here are a few tips and things to keep in mind when trying the project in Glitch:
 * After you uploaded the image, when you press the 'Add Watermark' button,
 wait for the page to finish reloading before continuing
-* If you open the gallery and you see the image that you uploaded 
+* If you open the gallery and you see the image that you uploaded and watermarked
 without an orange feather over the image in the top left corner, then go back and 
-reupload the image, and watermark it
+reupload the image, and watermark it until the image gets watermarked or try 
+uploading a different image
 * If you uploaded the image and watermarked it, and you open the gallery 
 and you see a black panel, then just refresh the page
 * If you have not uploaded and watermarked any image, and you open the gallery,
