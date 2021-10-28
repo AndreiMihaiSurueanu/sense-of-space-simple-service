@@ -1,6 +1,12 @@
 # Sense of Space A-Frame Application written by Andrei
 
-This project consists of a simple backend service in **Node.js** and **express** 
+
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/s.png"/>
+</p>
+
+
+This project consists of a simple **RESTful API** backend service in **Node.js** and **express** 
 that servers a couple of views representing the **A-Frame Application**.
 The user can upload an image from the local storage when performing the *"upload"*
 action. And add a watermark to the image by performing the *"add watermark"* action.
@@ -9,11 +15,43 @@ When performing the *"add watermark"* action, the server route *"/addImageWaterm
 is called, the image is stored on the server using **Multer** node package. The image
 is then applied a watermark and overwrites the original image.
 
+<br>
 
-The project is hosted at:
+# Demo
 
-https://sense-of-space-a-frame-application.glitch.me/
+#### The project is online:
 
+## [LIVE DEMO HERE](https://sense-of-space-a-frame-application.glitch.me/)
+<br>
+<br>
+
+# Features
+<h3>
+
+* Upload image 🆙📤⤴
+* Add watermark 💧💦📝✒
+* View recent galery 👓🖼🖼
+<br>
+<br>
+
+# Technologies used :
+<br>
+<h2> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align='center' alt="Node.JS" width="200px" src="./images/n.png"/>
+* Node Js
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align='center' alt="Express" width="200px" src="./images/e.png"/>
+* Express
+
+&nbsp;<img align='center' alt="Multer" width="300px" src="./images/m.png"/>
+* Multer
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align='center' alt="A-Frame" width="170px" src="./images/a.png"/>
+* A-Frame  
+
+
+</br>
 
 # To run the project locally
 
