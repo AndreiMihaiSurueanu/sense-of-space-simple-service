@@ -21,7 +21,7 @@ is then applied a watermark and overwrites the original image.
 
 #### The project is online:
 
-<h2>
+<h3>
 
 [LIVE DEMO HERE](https://sense-of-space-a-frame-application.glitch.me/)
 <br>
