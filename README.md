@@ -6,7 +6,7 @@
 </p>
 
 
-This project consists of a simple **RESTful API** backend service in **Node.js** and **express** 
+This project consists of a simple **REST-ful API** backend service in **Node.js** and **Express** 
 that servers a couple of views representing the **A-Frame Application**.
 The user can upload an image from the local storage when performing the *"upload"*
 action. And add a watermark to the image by performing the *"add watermark"* action.
@@ -21,7 +21,9 @@ is then applied a watermark and overwrites the original image.
 
 #### The project is online:
 
-## [LIVE DEMO HERE](https://sense-of-space-a-frame-application.glitch.me/)
+<h2>
+
+[LIVE DEMO HERE](https://sense-of-space-a-frame-application.glitch.me/)
 <br>
 <br>
 
@@ -49,7 +51,27 @@ is then applied a watermark and overwrites the original image.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align='center' alt="A-Frame" width="170px" src="./images/a.png"/>
 * A-Frame  
+</br>
 
+# Gallery
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/s.png"/>
+</p>
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/g0.png"/>
+</p>
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/g1.png"/>
+</p>
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/g2.png"/>
+</p>
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/g3.png"/>
+</p>
+<p align="center">
+    <img alt="A-Frame APP"  src="./images/g4.png"/>
+</p>
 
 </br>
 
@@ -73,11 +95,11 @@ e.g.:
 - http://localhost:1234
 
 
-#### Tips:
+# Tips:
 
 A few things to consider.
 Since hosting the project on Glitch can sometimes be a
-little bit..., well..., glitchy  :smile:
+little bit..., well..., glitchy...😄
 Here are a few tips and things to keep in mind when trying the project in Glitch:
 * After you uploaded the image, when you press the 'Add Watermark' button,
 wait for the page to finish reloading before continuing
@@ -91,6 +113,6 @@ and you see a black panel, then just refresh the page
 and you see the black panel, don't worry it's normal, there's just nothing upladed
 yet. Just go back, upload and watermark an image.
 
-### Have fun with project and thank you for your attention. :blush: :wink:
+## Have fun with project and thank you for your attention. 😊😉
 
 
